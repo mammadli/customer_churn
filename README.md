@@ -1,1 +1,1 @@
-# customer_churn in Telecommunication_industry
+# customer_churn in Telco Inc.
