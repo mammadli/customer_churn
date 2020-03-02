@@ -1,1 +1,1 @@
-# customer_churn in Telco Inc.
+# customer_churn behavior in Telco Inc.
