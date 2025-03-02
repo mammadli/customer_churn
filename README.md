@@ -4,8 +4,7 @@
 
 This repository contains a comprehensive pipeline for processing, cleaning, and modeling Airbnb listing data for price prediction. The project follows a structured approach, including dataset loading, cleaning, feature engineering, and training multiple regression models. The primary goal is to predict listing prices based on various property attributes and location features.
 
-## Project Structure
-📁 **Project Directory**
+## 📁 Project Structure
 ```
 📂 data/               # Raw datasets
 📂 processed_data/     # Cleaned datasets
