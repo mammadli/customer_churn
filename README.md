@@ -19,6 +19,19 @@ This repository contains a comprehensive pipeline for processing, cleaning, and 
 - `delete_processed_data(base_dir)`: Deletes all files inside the processed_data directory before saving new ones.
 - `load_cleaned_data(base_dir)`: Loads cleaned datasets from the processed_data directory.
 - `save_cleaned_data(df, base_dir, filename_prefix)`: Saves a cleaned dataframe with a timestamped filename.
+- `drop_unnecessary_columns(df)`: Drops irrelevant columns for price prediction.
+- `clean_missing_values(df)`: Removes columns with excessive missing values but retains essential ones.
+- `fill_numeric_missing_values(df)`: Fills missing values in numeric columns using mean or median.
+- `process_boolean_columns(df)`: Converts boolean columns ('t'/'f') to numeric (1/0) and fills missing values.
+- `process_amenities(df, top_n=10)`: Extracts top amenities and creates binary features.
+- `process_bathrooms(df)`: Extracts numeric bathroom values and creates shared/private indicators.
+- `extract_bathrooms(text)`: Extracts numeric bathroom count from text descriptions.
+- `clean_price(df)`: Converts price values to numeric format and removes outliers.
+- `clean_host_acceptance_rate(df)`: Converts host acceptance rate to numeric values.
+- `categorize_property_type(df)`: Categorizes property types into apartment, house, or other.
+- `calculate_distance_to_center(df)`: Computes distance from listing to city center using the Haversine formula.
+- `process_neighbourhood(df, top_n=5)`: Keeps top N neighborhoods and one-hot encodes them.
+- `filter_data(df)`: Removes outliers and irrelevant data based on predefined thresholds.
 
 
 ## Installation & Setup
