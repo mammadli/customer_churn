@@ -14,6 +14,14 @@ This repository contains a comprehensive pipeline for processing, cleaning, and 
 📄 README.md          # Project documentation
 ```
 
+## Function Overview
+- `jo(directory, filename)`: Joins a directory and filename.
+- `load_data(base_dir)`: Loads raw datasets from the data directory.
+- `delete_processed_data(base_dir)`: Deletes all files inside the processed_data directory before saving new ones.
+- `load_cleaned_data(base_dir)`: Loads cleaned datasets from the processed_data directory.
+- `save_cleaned_data(df, base_dir, filename_prefix)`: Saves a cleaned dataframe with a timestamped filename.
+
+
 ## Installation & Setup
 
 To set up the project environment, install the required dependencies:
