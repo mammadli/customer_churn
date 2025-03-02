@@ -98,7 +98,7 @@ This will:
 ## Author & Contact
 If you have any questions or feedback, feel free to reach out.
 
-📧 Email: sarkhan.mammadli@example.com
+📧 **Email:** [sarkhan.mammadli@example.com](mailto:sarkhan.mammadli@example.com)
 🔗 LinkedIn: [linkedin.com/in/mammadli](https://linkedin.com/in/mammadli)  
 💻 GitHub: [github.com/mammadli](https://github.com/mammadli)  
 
