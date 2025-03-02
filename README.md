@@ -6,8 +6,8 @@ This repository contains a comprehensive pipeline for processing, cleaning, and 
 
 ## 📁 Project Structure
 ```
-📂 data/               # Raw datasets
-📂 processed_data/     # Cleaned datasets
+📂 data/              # Raw datasets
+📂 processed_data/    # Cleaned datasets
 📂 notebooks/         # Jupyter notebooks (if applicable)
 📂 scripts/           # Python scripts for data processing
 📄 README.md          # Project documentation
